@@ -2,7 +2,7 @@
 Create Todo items, update and delete them. Get an overview of all Items, and a few other basic features. This kind of app is essentially a "Hello World".
 
 
-Below are the user stories, which we will implement
+Below are the user stories, which we will implement:
 
 - As a user of the system I can add a new User, so that Todos can be assigned to Users.
 - As a User I can get a list of all existing Users, so that I can assign Todos to them
