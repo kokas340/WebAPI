@@ -40,4 +40,9 @@ public class UserLogic : IUserLogic
             throw new Exception("Username must be less than 16 characters!");
     }
     
+    public Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters)
+    {
+        return userDao.GetAsync(searchParameters);
+    }
+    
 }
